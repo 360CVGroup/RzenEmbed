@@ -1,4 +1,5 @@
 # RzenEmbed-v2-7B
+[RzenEmbed Paper](https://arxiv.org/abs/2510.27350)
 
 RzenEmbed-v2-7B is a multimodal embedding model developed and open-sourced by 360CVGroup, fine-tuned from Qwen2-VL. It achieves state-of-the-art (SOTA) results on the MMEB-V2, MMEB-Visdoc, and MMEB-Video benchmarks (as of September 29, 2025).
 
