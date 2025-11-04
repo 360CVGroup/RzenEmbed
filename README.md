@@ -84,7 +84,7 @@ Match text queries with document images for information retrieval.
 ```python
 from rzen_embed_inference import RzenEmbed
 
-rzen = RzenEmbed("RzenAI/RzenEmbed-v2-7B")
+rzen = RzenEmbed("qihoo360/RzenEmbed")
 
 queries = [
     "What is the main variable being analyzed on the x-axis of these graphs?",
@@ -132,7 +132,7 @@ def extract_frames(video_path, num_frames):
     cap.release()
     return frames
 
-rzen = RzenEmbed("RzenAI/RzenEmbed-v2-7B")
+rzen = RzenEmbed("qihoo360/RzenEmbed")
 
 queries = [
     "A traditional boat glides along a river lined with blooming cherry blossoms under an overcast sky in a modern cityscape.",
@@ -167,7 +167,7 @@ Retrieve images that match text captions.
 ```python
 from rzen_embed_inference import RzenEmbed
 
-rzen = RzenEmbed("RzenAI/RzenEmbed-v2-7B")
+rzen = RzenEmbed("qihoo360/RzenEmbed")
 
 queries = [
     "A curious kitten and a gentle puppy share a moment of connection on the grass.",
@@ -197,7 +197,7 @@ Find text captions that best match given images.
 ```python
 from rzen_embed_inference import RzenEmbed
 
-rzen = RzenEmbed("RzenAI/RzenEmbed-v2-7B")
+rzen = RzenEmbed("qihoo360/RzenEmbed")
 
 queries = [
     "assets/example1.jpg",
@@ -216,4 +216,19 @@ candidate_embeds = rzen.get_fused_embeddings(texts=candidates)
 # Calculate image-to-text similarity scores
 similarity_scores = query_embeds @ candidate_embeds.T
 print(similarity_scores)
+```
+
+
+## Citation
+If you find RzenEmbed useful for your research and applications, please cite using this BibTeX:
+```
+@misc{jian2025rzenembedcomprehensivemultimodalretrieval,
+      title={RzenEmbed: Towards Comprehensive Multimodal Retrieval}, 
+      author={Weijian Jian and Yajun Zhang and Dawei Liang and Chunyu Xie and Yixiao He and Dawei Leng and Yuhui Yin},
+      year={2025},
+      eprint={2510.27350},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.27350}, 
+}
 ```
