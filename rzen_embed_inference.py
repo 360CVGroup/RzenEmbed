@@ -17,7 +17,7 @@ from transformers.models.qwen2_vl import Qwen2VLForConditionalGeneration
 class RzenEmbed(nn.Module):
     def __init__(
         self,
-        model_name: str = "RzenAI/RzenEmbed-v2-7B",
+        model_name: str = "qihoo360/RzenEmbed",
         model_path: Optional[str] = None,
         device: str = "cuda" if torch.cuda.is_available() else "cpu",
         min_image_tokens=256,
