@@ -14,8 +14,6 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 
 ### MMEB-V2
 
-<table style="width:100%">
-<tr><td>
 
 | Model                    | Model Size (B) | Overall   | Image-Overall | Video-Overall | Visdoc-Overall |
 | :------------------------: | :--------------: | :---------: | :-------------: | :-------------: | :--------------: |
@@ -28,12 +26,10 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 | gme-Qwen2-VL-7B-Instruct | 8.29           | 57.83     | 55.95         | 38.43         | 75.18          |
 | gme-Qwen2-VL-2B-Instruct | 2.21           | 54.08     | 51.89         | 33.64         | 72.71          |
 
-</td></tr></table>
+
 
 ### MMEB-Visdoc
 
-<table style="width:100%">
-<tr><td>
 
 | Models                   | Model Size(B) | Visdoc-Overall | ViDoRe-V1 | ViDoRe-V2 | VisRAG   | VisDoc-OOD |
 | :------------------------: | :-------------: | :--------------: | :---------: | :---------: | :--------: | :----------: |
@@ -46,11 +42,9 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 | Ops-MM-embedding-v1-2B   | 2.21          | 66.96          | 76.39     | 53.18     | 77.64    | 41.17      |
 | VLM2Vec-V2.0-Qwen2VL-2B  | 2.21          | 65.36          | 75.52     | 44.86     | 79.38    | 39.43      |
 
-</td></tr></table>
+
 
 ### MMEB-Video
-<table style="width:100%">
-<tr><td>
 
 | Models                   | Model Size(B) | Video-Overall | V-CLS     | V-QA     | V-RET     | V-MRET    |
 | :------------------------: | :-------------: | :-------------: | :---------: | :--------: | :---------: | :---------: |
@@ -67,8 +61,6 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 
 ### MMEB-Image
 
-<table style="width:100%">
-<tr><td>
 
 | Models                 | Model Size(B) | Image-Overall | I-CLS     | I-QA      | I-RET    | I-VG     |
 | :----------------------: | :-------------: | :-------------: | :---------: | :---------: | :--------: | :--------: |
@@ -78,12 +70,8 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 | ReCo-7B                | 8.29          | 73.87         | 70.95     | 71.52     | 73.66    | 87.7     |
 | OEmbedding-v1-7B       | 8.29          | 72.79         | 70.05     | 68.1      | 73.84    | 88.25    |
 | Ops-MM-embedding-v1-7B | 8.29          | 72.72         | 69.65     | 69.58     | 73.09    | 87.15    |
-| QQMM-embed             | 8.30         | 72.18        | 70.07     | 69.52     | 71.18   | 87.08   |
+| QQMM-embed             | 8.29        | 72.18        | 70.07     | 69.52     | 71.18   | 87.08   |
 | B3_Qwen2_7B            | 8.29          | 72            | 70        | 66.5      | 74.1     | 84.6     |
-
-</td></tr></table>
-
-
 
 
 ## Usage
