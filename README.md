@@ -16,6 +16,7 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 
 <table style="width:100%">
 <tr><td>
+
 | Model                    | Model Size (B) | Overall   | Image-Overall | Video-Overall | Visdoc-Overall |
 | :------------------------: | :--------------: | :---------: | :-------------: | :-------------: | :--------------: |
 | RzenEmbed-v2-7B          | 8.29           | **71.61** | 75.92         | **55.73**     | **77.06**      |
@@ -26,12 +27,14 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 | VLM2Vec-V2.0-Qwen2VL-2B  | 2.21           | 58.02     | 64.85         | 34.85         | 65.36          |
 | gme-Qwen2-VL-7B-Instruct | 8.29           | 57.83     | 55.95         | 38.43         | 75.18          |
 | gme-Qwen2-VL-2B-Instruct | 2.21           | 54.08     | 51.89         | 33.64         | 72.71          |
+
 </td></tr></table>
 
 ### MMEB-Visdoc
 
 <table style="width:100%">
 <tr><td>
+
 | Models                   | Model Size(B) | Visdoc-Overall | ViDoRe-V1 | ViDoRe-V2 | VisRAG   | VisDoc-OOD |
 | :------------------------: | :-------------: | :--------------: | :---------: | :---------: | :--------: | :----------: |
 | RzenEmbed-v2-7B          | 8.29          | **77.06**      | **89.7**  | **60.7**  | **88.7** | 44.38      |
@@ -42,11 +45,13 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 | Ops-MM-embedding-v1-7B   | 8.29          | 70.34          | 80.05     | 59.59     | 79.32    | 43.34      |
 | Ops-MM-embedding-v1-2B   | 2.21          | 66.96          | 76.39     | 53.18     | 77.64    | 41.17      |
 | VLM2Vec-V2.0-Qwen2VL-2B  | 2.21          | 65.36          | 75.52     | 44.86     | 79.38    | 39.43      |
+
 </td></tr></table>
 
 ### MMEB-Video
 <table style="width:100%">
 <tr><td>
+
 | Models                   | Model Size(B) | Video-Overall | V-CLS     | V-QA     | V-RET     | V-MRET    |
 | :------------------------: | :-------------: | :-------------: | :---------: | :--------: | :---------: | :---------: |
 | RzenEmbed-v2-7B          | 8.29          | **55.73**     | 58.82     | **63.5** | 50.97     | 45.54     |
@@ -57,12 +62,14 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 | interestFM-UIR-CAFe-0.5B | 0.894         | 35.87         | 33.9      | 41.72    | 29.69     | 39.69     |
 | LamRA-Ret                | 8.29          | 34.96         | 39.27     | 42.6     | 24.26     | 32.84     |
 | VLM2Vec-V2.0-Qwen2VL-2B  | 2.21          | 34.58         | 39.3      | 34.32    | 28.77     | 36.82     |
+
 </td></tr></table>
 
 ### MMEB-Image
 
 <table style="width:100%">
 <tr><td>
+
 | Models                 | Model Size(B) | Image-Overall | I-CLS     | I-QA      | I-RET    | I-VG     |
 | :----------------------: | :-------------: | :-------------: | :---------: | :---------: | :--------: | :--------: |
 | seed-1.6-embedding     | unknown       | **77.78**     | **76.06** | **73.97** | 77.9     | 91.25    |
@@ -73,6 +80,7 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 | Ops-MM-embedding-v1-7B | 8.29          | 72.72         | 69.65     | 69.58     | 73.09    | 87.15    |
 | QQMM-embed             | 8.30         | 72.18        | 70.07     | 69.52     | 71.18   | 87.08   |
 | B3_Qwen2_7B            | 8.29          | 72            | 70        | 66.5      | 74.1     | 84.6     |
+
 </td></tr></table>
 
 
