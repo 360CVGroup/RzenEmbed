@@ -12,7 +12,7 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 
 
 
-### MMEB-V2
+### Benchmark
 
 We evaluate RzenEmbed on MMEB-V2 benchmark, and compare with other multimodal embedding methods.
 <div align='center'><img src="./resources/MMEB-V2.png"  width="100%"/></div>
