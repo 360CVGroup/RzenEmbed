@@ -345,7 +345,7 @@ def fetch_image(image: str | Image.Image, size_factor: int = IMAGE_FACTOR) -> Im
 
 
 if __name__ == '__main__':
-    rzen = RzenEmbed("RzenAI/RzenEmbed-v2-7B")
+    rzen = RzenEmbed("qihoo360/RzenEmbed")
 
     queries = [
         "A curious kitten and a gentle puppy share a moment of connection on the grass.",
