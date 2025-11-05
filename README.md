@@ -1,6 +1,8 @@
 
 # RzenEmbed: Towards Comprehensive Multimodal Retrieval
-The repository is the official implementation of RzenEmbed, which is a unified framework to learn embeddings across a diverse set of modalities, including text, images, videos, and visual documents. RzenEmbed is fine-tuned from Qwen2-VL, which employs a novel two-stage training strategy to learn discriminative representations.  It achieves state-of-the-art (SOTA) results on the MMEB-V2, MMEB-Visdoc, and MMEB-Video benchmarks (as of September 29, 2025).
+Welcome to the official repository for **RzenEmbed**, a state-of-the-art model designed to generate powerful, general-purpose embeddings from a diverse set of data types.
+
+RzenEmbed unifies understanding across modalities by processing inputs based on task instructions, making it a versatile tool for a wide array of downstream applications.
 
 **[RzenEmbed: Towards Comprehensive Multimodal Retrieval](https://arxiv.org/abs/2510.27350)**
 </br>
@@ -11,15 +13,21 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 [![Benchmark](https://img.shields.io/badge/MMEB-Benchmark-blue.svg)](https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard)
 
 
+## ✨ Key Features
 
-### Benchmark
+*   **Unified Multimodal Embeddings**: Learns a single representation space for **text, visual documents, images, and video**.
+*   **Instruction-Tuned**: Follows natural language instructions to adapt its embedding generation for specific tasks.
+*   **Versatile and General-Purpose**: Produces embeddings that excel in various downstream tasks without task-specific fine-tuning.
+*   **State-of-the-Art Performance**: Achieves top results on major multimodal benchmarks.
 
-We evaluate RzenEmbed on MMEB-V2 benchmark, and compare with other multimodal embedding methods.
+## 🏆 State-of-the-Art Results
+
+As of September 2025, RzenEmbed achieves SOTA performance on the following benchmarks:
 <div align='center'><img src="./resources/MMEB-V2.png"  width="100%"/></div>
 
 
 
-## Usage
+## 🔧 Usage
 
 
 ### Document Retrieval
@@ -164,7 +172,7 @@ print(similarity_scores)
 ```
 
 
-## Citation
+## 📖 Citation
 If you find RzenEmbed useful for your research and applications, please cite using this BibTeX:
 ```
 @misc{jian2025rzenembedcomprehensivemultimodalretrieval,
