@@ -1,5 +1,6 @@
 
 # RzenEmbed: Towards Comprehensive Multimodal Retrieval
+<div align='center'><img src="./resources/readme.png"  width="100%"/></div>
 Welcome to the official repository for **RzenEmbed**, a state-of-the-art model designed to generate powerful, general-purpose embeddings from a diverse set of data types.
 
 RzenEmbed unifies understanding across modalities by processing inputs based on task instructions, making it a versatile tool for a wide array of downstream applications.
