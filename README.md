@@ -13,6 +13,7 @@ Weijian Jian, Yajun Zhang, Dawei Liang, Chunyu Xie, Yixiao He, Dawei Leng, Yuhui
 [![arXiv](https://img.shields.io/badge/arXiv-2510.27350-b31b1b.svg)](https://arxiv.org/abs/2510.27350)
 [![HF-model](https://img.shields.io/badge/Model-Collection🤗-yellow.svg)](https://huggingface.co/collections/qihoo360/rzenembed)
 [![Benchmark](https://img.shields.io/badge/MMEB-Benchmark-blue.svg)](https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard)
+[![API](https://img.shields.io/badge/API-RzenEmbed-green.svg)](https://research.360.cn/products/RzenEmbed)
 
 
 ## ✨ Key Features
